@@ -1,0 +1,114 @@
+.glass-body {
+  display: flex;
+  padding: 4.5rem;
+  margin: 0;
+  background: #bfedd5;
+  background: linear-gradient(90deg, #c7edbf 0, #c4caef 58%);
+  font-family: 'Inter', sans-serif;
+  justify-content: center;
+}
+
+.shape {
+  position: absolute;
+  width: 250px;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
+.card {
+  width: 70rem;
+  height: auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #48BB78;
+  text-shadow: black 0.01em 0.01em 0.01em;
+  color: linear-gradient(90deg, #36652d 0, #226627 58%);
+}
+
+.subHeading-card {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.card-img {
+  width: 70%;
+  height: 50rem;
+  border-radius: 1rem;
+}
+
+.blog-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.blog-links:hover {
+  color: #64f1a8;
+  color: linear-gradient(90deg, #459435 0, #226627 58%);
+  transition: transform 0.9s;
+}
+
+.google-map-iframe {
+  width: 100%;
+  height: 50rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .glass-body {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .card {
+    width: auto;
+    margin-top: 2rem;
+  }
+
+  .card-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+#card-dark {
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+}
+
+#card-title-dark {
+  color: #5dd844;
+  color: linear-gradient(90deg, #459435 0, #226627 58%);
+  text-shadow: black 0.01em 0.01em 0.01em;
+}
+
+#card-content-dark {
+  color: white;
+  color: linear-gradient(90deg, #459435 0, #226627 58%);
+  text-shadow: black 0.01em 0.01em 0.01em;
+}
+
+#glass-body-dark {
+  background: #1a202c;
+  background: linear-gradient(90deg, #1a202c 0, #333d4e 58%);
+}
+
