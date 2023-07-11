@@ -14,7 +14,7 @@ console.log(colorMode)
   const replaceYouTubeLinks = (content) => {
     const youtubeLinkRegex = /(https?:\/\/(?:www\.)?youtube\.com\/watch\?v=([a-zA-Z0-9_-]+))/g;
     const embeddedPlayerTemplate = '<iframe width="560" height="315" src="https://www.youtube.com/embed/$2" frameborder="0" allowfullscreen></iframe>';
-    const chargerLink = '<a href="https://mevcharger.com/products/chargers" target="_blank" rel="noopener noreferrer" style="color: green;" >charger</a>';
+    const chargerLink = '<a href="https://en.mevcharger.com/products/chargers" target="_blank" rel="noopener noreferrer" style="color: green;" >charger</a>';
 
     const paragraphs = content.split('\n\n'); // Split the content into paragraphs
   

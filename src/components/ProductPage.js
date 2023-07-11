@@ -82,7 +82,7 @@ export default function Simple() {
         <meta property="og:title" content={product.name} />
         <meta property="og:description" content={metaDescription} />
         <meta property="og:image" content={product?.imageUrl} />
-        <meta property="og:url" content={`https://mevcharger.com/product/${product.id}`} />
+        <meta property="og:url" content={`https://en.mevcharger.com/product/${product.id}`} />
         <meta property="og:type" content="product" />
         <meta property="og:price:amount" content={product.price} />
         <meta property="og:price:currency" content="AED" />

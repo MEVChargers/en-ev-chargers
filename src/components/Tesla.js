@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Image, Text, Button, Link, Icon, useBreakpointValue } from '@chakra-ui/react';
 import { products } from './data/productdata';
 import { FaBackward } from 'react-icons/fa';
+import { Helmet } from 'react-helmet';
 
 const Tesla = () => {
   const filteredProducts = products.filter((product) => product.portType === 'tesla' || product.portType2 === 'tesla');
@@ -10,6 +11,21 @@ const Tesla = () => {
 
   return (
     <Box>
+      <Helmet>
+        <title>Tesla EV Chargers </title>
+        <meta
+          name="description"
+          content="Explore our selection of Tesla electric vehicle chargers. MEV Charger offers reliable and high-performance chargers for Tesla vehicles."
+        />
+        <meta property="og:title" content="Tesla EV Chargers" />
+        <meta
+          property="og:description"
+          content="Explore our selection of Tesla electric vehicle chargers. MEV Charger offers reliable and high-performance chargers for Tesla vehicles."
+        />
+        <meta property="og:url" content="https://en.mevcharger.com/products/tesla" />
+      </Helmet>
+    
+
       <Button colorScheme='green' m={2}>
         <Link href="/pick">
           <Icon as={FaBackward} m={1}/>

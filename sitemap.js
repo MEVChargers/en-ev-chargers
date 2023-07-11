@@ -32,7 +32,7 @@ const routes = [
   '/products/11',
 ];
 
-const baseUrl = 'https://www.mevcharger.com';
+const baseUrl = 'https://en.mevcharger.com';
 
 const sitemap = create({ version: '1.0', encoding: 'UTF-8' })
   .ele('urlset', { xmlns: 'http://www.sitemaps.org/schemas/sitemap/0.9' });

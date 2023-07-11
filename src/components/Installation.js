@@ -47,9 +47,21 @@ const Form1 = ({ onNext }) => {
   
     return (
       <>
-        <Heading w="100%" textAlign={'center'} fontWeight="normal" mb="2%">
+    <title> Electric Car Charger Installation in UAE | MEV Chargers
+    </title>
+    <meta name="description" content="MEV Chargers is the leading electric car charger installation company in UAE. We provide EV charger installation services for all types of electric vehicles." />
+    <meta name="keywords" content="electric car charger installation, ev charger installation, ev charger installation cost, ev charger installation near me, ev charger installation companies, ev charger installation companies near me, ev charger installation companies in uae, ev charger installation companies in dubai, ev charger installation companies in abu dhabi, ev charger installation companies in sharjah, ev charger installation companies in ajman, ev charger installation companies in ras al khaimah, ev charger installation companies in fujairah, ev charger installation companies in umm al quwain, ev charger installation companies in al ain, ev charger installation companies in al gharbia, ev charger installation companies in abu dhabi, ev charger installation companies in al ain, ev charger installation companies in al gharbia, ev charger installation companies in abu dhabi, ev charger installation companies in al ain, ev charger installation companies in dubai " />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="MEV Chargers" />
+    <meta name="distribution" content="global" />
+    <meta name="rating" content="general" />
+    <meta name="revisit-after" content="12 days" />
+    <meta name="language" content="en" />
+    <meta name="generator" content="MEV Charger" />
+    <meta name="csrf-token" content="MEV Charger" />
+    <meta property="og:title" content="Electric Car Charger Installation in UAE | MEV Chargers" />
+    <meta property="og:description" content="MEV Chargers is the leading electric car charger installation company in UAE. We provide EV charger installation services for all types of electric vehicles." />
           Are you in the UAE?
-        </Heading>
         <RadioGroup mb={8} name="Step1" sx={{ mt: 8 }}>
           <Stack spacing={10} direction="row" justify="center">
             <Stack direction="column" align="center">

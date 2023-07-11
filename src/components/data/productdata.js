@@ -756,9 +756,43 @@ export const images = [
             salesPrice: 1600,
             rating: 5,
             ratingCount: 1,
-            description: 'Tesla WallBox EV Charger, 22KW 32A, Type 2, 3 Phase, 5m Cable, IP66, 3 Years Warranty',
+            description: `The Tesla Smart Home WiFi Enabled EV Charger APP is a wall-mounted charger designed for home and business use. With its compact size and advanced features, it offers easy installation, stable performance, and comprehensive protection. The accompanying mobile app allows users to control and monitor their charging sessions, adjust current settings, and view detailed charging status. Additionally, the charger supports RFID functionality with a card writer and management program. Using this charger, you can charge the EU Tesla (GCC Tesla), and many other EU market cars like BMW, Mercedes, Audi, Volvo, and more.`,         
+            longDescription: `The Tesla Smart Home WiFi Enabled EV Charger APP is a cutting-edge charging solution that combines convenience, versatility, and advanced features. Designed for both residential and commercial use, this wall-mounted charger offers a compact and sleek design with dimensions of 228.5228.5100mm, making it suitable for various installation scenarios.
 
-        }
+            One of the standout features of this charger is its seamless integration with the accompanying mobile app. The app provides users with full control over their charging sessions, enabling them to schedule charging sessions, start and stop charging remotely, and adjust the charging current as per their requirements. The charger's smart memory feature remembers the preferred current setting, ensuring a hassle-free experience each time.
+            
+            When connected to a WiFi or 4G network, the Tesla Smart Home charger extends its functionality even further. With WiFi or 4G capabilities, users can enjoy features such as scheduled charging, remote start and stop, current adjustment, real-time charging data displayed on the mobile app, and the ability to view and update the PIN code for added security. Additionally, the charger supports firmware updating through the mobile app, ensuring that users always have access to the latest enhancements and improvements.
+            
+            The Tesla Smart Home charger also incorporates advanced security and protection measures. With an IP65 protection level, it is resistant to dust and water, making it suitable for outdoor installation. The charger adheres to the IEC/EN61851-2011 standard, ensuring compliance with safety and performance requirements.
+            
+            Furthermore, the charger supports various communication protocols, including OCPP 1.6 (JSON), which facilitates seamless integration with electric vehicle charging networks and management systems. It also offers multiple connectivity options, including Bluetooth, WiFi, and 4G network gateways, providing flexibility and convenience for users.
+            
+            In terms of additional smart features, the Tesla Smart Home charger includes RFID functionality. The charger is equipped with a card writer and a management program, allowing users to easily manage and control access to the charger using RFID cards or tags. This feature adds an extra layer of security and convenience, especially in shared charging environments.
+            
+            Overall, the Tesla Smart Home WiFi Enabled EV Charger APP offers a comprehensive and user-friendly charging solution for electric vehicle owners. With its compact size, advanced features, and seamless integration with the mobile app, it provides a convenient and efficient charging experience for both residential and commercial applications.`,
+            tags: [
+              'tesla',
+              'tesla charger',
+              'tesla wallbox',
+              'tesla charger price',
+              'tesla wallbox charger',
+              'tesla wallbox charger price',
+              'tesla wallbox charger price in dubai',
+              'tesla ev charger',
+              'tesla supercharger',
+              'how to charger tesla', 
+              'cheap tesla charger',
+              
+
+            ],
+            current: '32 A',
+            power: '7.7 kW, 11 kW, 22 kW',
+            cableLength: '3.5 m',
+            availablePorts: 'Type 2',
+            inputFrequency: '50/60 Hz',
+            illustration: 'https://www.teisonev.com/Content/uploads/2022466000/2022071315081644e19163bea54a54860122e3ad594c29.jpg'
+
+          }
     
       
   ];

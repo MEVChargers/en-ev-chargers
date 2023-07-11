@@ -48,11 +48,11 @@ const PopularBlogs = () => {
      
       <h3>Useful Links:</h3>
       <ul>
-        <li><a href="https://www.mevcharger.com" target="_blank" rel="noopener noreferrer">Mev Charger Website</a></li>
+        <li><a href="https://en.mevcharger.com" target="_blank" rel="noopener noreferrer">Mev Charger Website</a></li>
         <li><a href="https://www.al-muhands.com" target="_blank" rel="noopener noreferrer">Al Muhandes Workshop Equipment Website</a></li>
       </ul>
 <Location/>        
-        <a className="blog-links" href="https://www.mevcharger.com/blog">Read more</a>
+        <a className="blog-links" href="https://en.mevcharger.com/blog">Read more</a>
       </div>
     </article>
   );

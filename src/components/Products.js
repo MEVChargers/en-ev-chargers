@@ -3,6 +3,7 @@ import { Box, Badge, Image, Text, Stack } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 import { products } from './data/productdata';
 import ProductFilter from './ProductFilter';
+import { Helmet } from 'react-helmet';
 
 const Products = () => {
   const [filteredProducts, setFilteredProducts] = useState(products);
@@ -13,6 +14,13 @@ const Products = () => {
 
   return (
     <Box>
+      <Helmet>
+        <meta 
+          name="keywords"
+          content='fast ev charger, fast ev chargers, ev chargers in dubai'
+        />
+
+      </Helmet>
       <ProductFilter products={products} onFilterChange={handleFilterChange} />
       <Stack spacing={4}>
         {filteredProducts.map((product) => (
