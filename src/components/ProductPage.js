@@ -21,7 +21,6 @@ import {
   MenuList,
   MenuItem,
   Image,
-  Icon,
 } from '@chakra-ui/react';
 
 import { ChevronDownIcon } from '@chakra-ui/icons'
@@ -31,6 +30,7 @@ import { products } from '../components/data/productdata.js';
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
 import CarBonnetClosed from './images/Icon Images/car.png';
 import CarBonnetOpen from './images/Icon Images/bonnet.png';
+import RelatedProducts from './RelatedProducts.js';
 
 export default function Simple() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -84,6 +84,7 @@ export default function Simple() {
         <meta property="og:image" content={product?.imageUrl} />
         <meta property="og:url" content={`https://en.mevcharger.com/product/${product.id}`} />
         <meta property="og:type" content="product" />
+        <meta name='keywords' content={product.tags} />
         <meta property="og:price:amount" content={product.price} />
         <meta property="og:price:currency" content="AED" />
         <meta property="og:availability" content="instock" />
@@ -331,6 +332,8 @@ export default function Simple() {
           )}
         </Box>
       </SimpleGrid>
+      <RelatedProducts />
+
     </Container>
   );
 }

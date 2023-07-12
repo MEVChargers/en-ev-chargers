@@ -60,13 +60,14 @@ export const images = [
       cableLength: '3.5m',
       availablePorts: 'Type 2, Type 1, GBT',
       power: '7.7 / 11 / 22 kW',
+      tags: ['wallbox ev charger, ev charger dubai, home ev charger, id4 ev charger, id6 ev charger, tesla ev charger, mercedes ev charger, honda ev charger, nissan ev charger'],
       metaDescription:
       'Discover our Wallbox EV Charger with versatile connectors and advanced features. Safely and conveniently charge your electric vehicle with our reliable and high-performance charger. Suitable for a wide range of EV models.',
     },
       
     {
       id: '2',
-      name: 'Portable EV Charger',
+      name: 'VW ID4 and ID6 Portable EV Charger',
       currency: 'AED',
       price: 1100,
       salePrice: 900,
@@ -75,7 +76,7 @@ export const images = [
       rating: 5,
       ratingCount: 13,
       description:
-        'Fast portable EV Charger with GBT port. This charger is compatible with all EVs with a GBT port which means it can support Volkswagen ID.4, ID.6., and Changan Vehicles.',
+        'Fast portable EV Charger with GBT port for ID4 and ID6. This charger is compatible with all EVs with a GBT port which means it can support Volkswagen ID.4, ID.6., and Changan Vehicles.',
       images,
       portType: 'gbt',
       function: 'charger',
@@ -97,6 +98,7 @@ export const images = [
       illustration: 'https://sc04.alicdn.com/kf/H7398f992921f4b1dbc8b9334bf6cb5cah/257948432/H7398f992921f4b1dbc8b9334bf6cb5cah.jpg',
       illustration2: 'https://sc04.alicdn.com/kf/H5c9d3ea26a7348eeabc0f65ed7e52b82o/257948432/H5c9d3ea26a7348eeabc0f65ed7e52b82o.jpg',
       cableLength: '5m',
+      tags: ['VW ID4 charger', 'portable', 'GBT', 'ID4', 'ID6', 'VW ID6 charger', 'portable charger'],
 
     },
     {
@@ -119,6 +121,7 @@ export const images = [
       illustration: 'https://sc01.alicdn.com/kf/Hbcac362e4fc04257b4f78a6c708814b4e.jpg',
       illustration2: 'https://sc01.alicdn.com/kf/Hf593487f26804ac9ab5ed67c310912283.jpg',
       weight: '3.5kg',
+      tags: ['Type 1 to Type 2', 'EV Extension Cable', 'EV Charger']
 
     },
     {
@@ -151,7 +154,8 @@ export const images = [
         availablePorts: 'Type 2 to Type 1', 
         illustration: 'https://d1gymyavdvyjgt.cloudfront.net/drive/images/uploads/headers/ws_cropper/1_0x0_790x520_0x520_ev-connector-type-2.jpg', 
         illustration2: 'https://d1gymyavdvyjgt.cloudfront.net/drive/images/uploads/headers/ws_cropper/1_0x0_790x520_0x520_ev-connector-type-2.jpg',
-    },
+        tags: ['Type 2 to Type 1', 'EV Adapter', 'EV Charger', 'Ford adapter', 'US port adapter']
+      },
     {
       id: '5',
       name: 'Type 1 to Tesla EV Adapter',
@@ -165,6 +169,7 @@ export const images = [
       images,
       portType: 'tesla',
       function: 'adapter',
+      tags: ['Type 1 to Tesla', 'EV Adapter', 'EV Charger', 'Tesla adapter', 'US port adapter'],
       portType2: 'type1',
       availablePorts: 'Type 1 to Tesla',
       power: 'AC',
@@ -215,6 +220,7 @@ export const images = [
         power: '7.7/ 11 / 22 kW',
         cableLength: '3.5m',
         weight: '4.5 kg',
+        tags: ['GBT port charger', 'EV Charger', 'Volkswagen ID4 charger', 'Volkswagen ID6 charger', 'ID4 Charger', 'ID6 Charger'],
         illustration: 'https://www.automobile-magazine.fr/asset/cms/840x394/179434/config/128146/mg-6498.jpg',
         illustration2:'https://iili.io/HrtH9iF.md.webp',
       },
@@ -235,6 +241,7 @@ export const images = [
         portType2: 'none',
         longDescription: '',
         current: '32 A',
+        tags: ['Type 2 charger', 'EV Charger', 'Tesla charger', 'Audi charger', 'BMW charger', 'Mercedes charger', 'Porsche charger'],
 
       },
       {
@@ -256,6 +263,7 @@ export const images = [
         current: '32 A',
         cableLength: '3.5m',
         weight: '4.5 kg',
+        tags: ['Tesla wallbox charger', 'Tesla charger', 'EV Charger', 'Tesla adapter', 'Tesla Model S charger', 'Tesla Model 3 charger', 'Tesla Model X charger', 'Tesla Model Y charger'],
         illustration: 'https://e3.365dm.com/22/09/2048x1152/skynews-electric-car-tesla-vehicle_5911044.jpg',
 
       },
@@ -280,6 +288,7 @@ export const images = [
         illustration2:'https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/lectron_ccs_adapter.jpg',
         availablePorts: 'GBT to Tesla',
         weight: '0.5 kg',
+        tags: ['GBT to Tesla adapter', 'GBT to Tesla EV adapter', 'GBT to Tesla charger', 'GBT to Tesla charging adapter', 'GBT to Tesla charging cable', 'GBT to Tesla']
 
       },
         {
@@ -303,7 +312,8 @@ export const images = [
             { type: 'Type 2', image: 'https://iili.io/H4Jw19e.md.png' },
             { type: 'GBT', image: 'https://iili.io/H4Jwcc7.md.png' },
             { type: 'Type 1', image: 'https://iili.io/H4JwlS9.md.png' },
-        ]
+        ],
+        tags: ['Portable EV charger', 'EV portable charger', 'portable charger']
         },
 
         {
@@ -329,6 +339,7 @@ export const images = [
             operatingTemperature: '-30°C to +50°C',
             weight: '2 kg',
             power: '~50 kW',
+            tags: ['GBT to CCS2 adapter', 'GBT to CCS2 EV adapter', 'GBT to CCS2 charger', 'GBT to CCS2 charging adapter', 'GBT to CCS2 charging cable', 'GBT to CCS2', 'ID4 CCS2', 'ID6 CCS2', 'ID4', 'VW ID4 CCS2 TO GBT ADAPTER']
         },
 
         {
@@ -352,7 +363,8 @@ export const images = [
             operatingTemperature: '-30°C to +50°C',
             illustration: require('../images/product-images/GBT2GBT.webp'),
             illustration2: 'https://www.akyga.com/upl/app/products/images2/big-webp/dd106aec8f6ad2582c4bf459534ee3c0.webp.jpg',
-        },
+            tags: ['GBT to GBT adapter', 'GBT to GBT EV adapter', 'GBT to GBT charger', 'GBT to GBT charging adapter', 'ID4 EV adapter', 'ID4 adapter', 'GBT to GBT']
+          },
 
         {
             id:'13',
@@ -387,7 +399,8 @@ export const images = [
             
             illustration: require('../images/product-images/white-ev-charger.webp'),
             illustration2: 'https://www.akyga.com/upl/app/products/images2/big-webp/dd106aec8f6ad2582c4bf459534ee3c0.webp.jpg',
-        },
+            tags: ['EV charger', 'electric car charger', '3 phase 22kW ev charger', 'AC EV charger', 'ID4 EV charger', 'ID4 charger', 'Dubai EV charger', 'Sharjah EV charger']
+          },
         
           {
             id:'14',
@@ -414,7 +427,7 @@ export const images = [
             function: 'scanner',
             illustration: 'https://www.midaevse.com/uploads/CCS2-GBT-Adapter.jpg',
             illustration2: 'https://d.yixunpan.top/electway.com/wp-content/uploads/2021/03/img-5875.jpg',
-        
+            tags: ['EV scanner', 'electric car scanner', 'Tesla EV scanner', 'EV diagnostic scanner', 'EV diagnostic tool', 'EV diagnostic system', 'EV diagnostic software', 'EV diagnostic equipment', 'EV diagnostic machine', 'EV diagnostic device', 'EV diagnostic tool', 'EV diagnostic system', 'EV diagnostic software', 'EV diagnostic equipment', 'EV diagnostic machine', 'EV diagnostic device', 'EV diagnostic tool', 'EV diagnostic system', 'EV diagnostic software', 'EV diagnostic equipment', 'EV diagnostic machine', 'EV diagnostic device', 'EV diagnostic tool', 'EV diagnostic system', 'EV diagnostic software', 'EV diagnostic equipment', 'EV diagnostic machine', 'EV diagnostic device', 'EV diagnostic tool', 'EV diagnostic system', 'EV diagnostic software', 'EV diagnostic equipment', 'EV diagnostic machine', 'EV diagnostic device', 'EV diagnostic tool', 'EV diagnostic system', 'EV diagnostic software', 'EV diagnostic equipment', 'EV diagnostic machine', 'EV diagnostic device', 'EV diagnostic tool', 'EV diagnostic system', 'EV diagnostic software', 'EV diagnostic equipment', 'EV diagnostic machine', 'EV diagnostic device', 'EV diagnostic tool', 'EV diagnostic system', 'EV diagnostic software', 'EV diagnostic equipment', 'EV diagnostic machine', 'EV diagnostic device'],
         },
 
         {
@@ -434,6 +447,7 @@ export const images = [
             illustration: 'https://www.teslascanner.com/images/model-y.jpg',
             illustration2: 'https://d.yixunpan.top/electway.com/wp-content/uploads/2021/03/img-5875.jpg',
             op: 'Android',
+            tags: ['EV scanner', 'obd2 ev scanner', 'diagzone', 'Tesla EV scanner', 'EV diagnostic scanner', 'EV diagnostic tool', 'EV diagnostic system', 'EV diagnostic software', 'EV diagnostic equipment', 'EV diagnostic machine', 'EV diagnostic device', 'EV diagnostic tool', 'EV diagnostic system', 'EV diagnostic software', 'EV diagnostic equipment', 'EV diagnostic machine', 'EV diagnostic device', 'EV diagnostic tool', 'EV diagnostic system', 'EV diagnostic software', 'EV diagnostic equipment', 'EV diagnostic machine', 'EV diagnostic device', 'EV diagnostic tool', 'EV diagnostic system', 'EV diagnostic software', 'EV diagnostic equipment', 'EV diagnostic machine', 'EV diagnostic device'],
             coverageList: [
               {
                 brand: 'Acura (EV)',
@@ -746,6 +760,7 @@ export const images = [
             power: '7.7 kW',
             current: '32 A',
             cableLength: '3.5 m',
+            tags: ['Portable', 'Type 1', 'Type 2', 'Portable EV charger', '7 kw EV charger', 'Mercedes EV charger', 'Honda EV charger', 'Toyota EV charger', 'BMW EV charger', 'Tesla EV charger', 'Chevrolet EV charger', 'Ford EV'],
             availablePorts: 'Type 1, Type 2, GBT',
         },
         {
