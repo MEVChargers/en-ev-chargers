@@ -28,7 +28,6 @@ import PopularBlogs from './components/PopularBlogs';
 import NotFound from './components/404';
 import ReactGA from 'react-ga';
 
-
 function App() {
   
   ReactGA.initialize('G-09GTV1PCZ7');
