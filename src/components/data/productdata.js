@@ -73,7 +73,7 @@ export const products = [
     price: 1100,
     salePrice: 900,
     flag: 'on-sale',
-    imageUrl: 'https://iili.io/Hr78acB.md.png',
+    imageSource: 'https://iili.io/Hr78acB.md.png',
     rating: 5,
     ratingCount: 13,
     description:
@@ -99,7 +99,7 @@ export const products = [
     illustration: 'https://sc04.alicdn.com/kf/H7398f992921f4b1dbc8b9334bf6cb5cah/257948432/H7398f992921f4b1dbc8b9334bf6cb5cah.jpg',
     illustration2: 'https://sc04.alicdn.com/kf/H5c9d3ea26a7348eeabc0f65ed7e52b82o/257948432/H5c9d3ea26a7348eeabc0f65ed7e52b82o.jpg',
     cableLength: '5m',
-    tags: ['portable ev charger', 'Portable EV Charger', 'Portable Charger Dubai', 'Portable Charger Sharjah']
+    tags: ['portable ev charger', 'Portable EV Charger', 'Portable Charger Dubai', 'Portable Charger Sharjah', 'Portable Charger', 'Electric Car Portable Charger']
 
   },
   {
@@ -227,9 +227,9 @@ export const products = [
       id: '7',
       name: 'TYPE 2 Wallbox EV Charger',
       currency: 'AED',
-      price: 1800,
+      price: 1750,
       flag: 'new',
-      imageUrl: 'https://iili.io/HrjMhfn.md.webp',
+      imageSource: 'https://iili.io/HrjMhfn.md.webp',
       rating: 4,
       ratingCount: 14,
       description:
@@ -238,10 +238,32 @@ export const products = [
       portType: 'type2',
       function: 'charger',
       portType2: 'none',
-      longDescription: '',
-      current: '32 A',
-      tags: ['TYPE 2 Wallbox EV Charger', 'TYPE 2 Wallbox EV Charger Dubai', 'TYPE 2 Wallbox EV Charger Sharjah', 'TYPE 2 Wallbox EV Charger Abu Dhabi', 'TYPE 2 EV Charger', 'TYPE 2 EV Charger Dubai', 'TYPE 2 EV Charger Sharjah', 'TYPE 2 EV Charger Abu Dhabi', 'Type 2 Charger', 'Mercedes EV Charger', 'Porsche EV Charger', 'Audi EV Charger', 'BMW EV Charger', 'Tesla EV Charger']
+      longDescription: `
 
+      This TYPE 2 Wallbox EV Charger is the perfect way to charge your electric vehicle at home. It is compatible with all electric vehicles that use the Type 2 connector, including all Tesla models that were made in Europe, Audi, BMW, Mercedes, Porsche, and many more.
+      
+      Features:
+      - Compatible with all electric vehicles that use the Type 2 connector
+      - Maximum output of 22 kW
+      - Weatherproof
+      - Can be installed indoors or outdoors
+      - Bluetooth and Wi-Fi connectivity
+      - Easy to use
+      
+      Benefits:
+      - Quick and easy charging
+      - Weatherproof
+      - Durable
+      - Easy to install
+      - Affordable
+      
+      If you own an electric vehicle, then you need a TYPE 2 Wallbox EV Charger. This charger will allow you to quickly and easily charge your vehicle at home, so you can always be on the go.
+      
+      Order your TYPE 2 Wallbox EV Charger today!`,
+      current: '32 A',
+      tags: ['TYPE 2 Wallbox EV Charger', 'TYPE 2 Wallbox EV Charger Dubai', 'TYPE 2 Wallbox EV Charger Sharjah', 'TYPE 2 Wallbox EV Charger Abu Dhabi', 'TYPE 2 EV Charger', 'TYPE 2 EV Charger Dubai', 'TYPE 2 EV Charger Sharjah', 'TYPE 2 EV Charger Abu Dhabi', 'Type 2 Charger', 'Mercedes EV Charger', 'Porsche EV Charger', 'Audi EV Charger', 'BMW EV Charger', 'Tesla EV Charger'],
+      power: '7.7/ 11 kW',
+      illustration: require('../images/product-images/EV-Home-Charger-Dimensions.webp'),
     },
     {
       id: '8',
@@ -249,7 +271,7 @@ export const products = [
       currency: 'AED',
       price: 1800,
       flag: 'new',
-      imageUrl: 'https://iili.io/HrkHE0b.md.png',
+      imageSource: 'https://iili.io/HrkHE0b.md.png',
       rating: 4,
       ratingCount: 14,
       description:
@@ -271,7 +293,7 @@ export const products = [
       currency: 'AED',
       price: 600,
       flag: 'new',
-      imageUrl: 'https://iili.io/HregvLP.md.png',
+      imageSource: 'https://iili.io/HregvLP.md.png',
       imageAlt: 'GB/T to Tesla Adapter',
       rating: 4,
       ratingCount: 14,
@@ -286,7 +308,7 @@ export const products = [
       illustration2:'https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/lectron_ccs_adapter.jpg',
       availablePorts: 'GBT to Tesla',
       weight: '0.5 kg',
-      tags: ['GBT to Tesla Adapter', 'GBT to Tesla Adapter Dubai', 'GBT to Tesla Adapter Sharjah', 'GBT to Tesla Adapter Abu Dhabi', 'Tesla adapter']
+      tags: ['GBT to Tesla Adapter', 'GBT to Tesla Adapter Dubai', 'GBT to Tesla Adapter Sharjah', 'GBT to Tesla Adapter Abu Dhabi', 'Tesla adapter', 'Tesla charger']
 
     },
       {
@@ -295,7 +317,7 @@ export const products = [
       currency: 'AED',
       price: 1000,
       flag: 'new',
-      imageUrl: 'https://iili.io/H4JwlS9.md.png',
+      imageSource: 'https://iili.io/H4JwlS9.md.png',
       rating: 4,
       ratingCount: 14,
       description:
@@ -337,7 +359,7 @@ export const products = [
           operatingTemperature: '-30°C to +50°C',
           weight: '2 kg',
           power: '~50 kW',
-          tags: ['CCS2 to GBT Adapter', 'CCS2 to GBT DC Adapter', 'CCS2 Adapter', 'ID4 Fast Adapter', 'ID6 Fast Adapter', 'ID4 Fast Adapter Dubai', 'ID6 Fast Adapter Dubai', 'ID4 Fast Adapter Sharjah', 'ID6 Fast Adapter Sharjah', 'ID4 Fast Adapter Abu Dhabi', 'ID6 Fast Adapter Abu Dhabi', 'ID4 Fast Adapter UAE', 'ID6 Fast Adapter UAE', 'ID4 Fast Adapter GCC', 'ID6 Fast Adapter GCC', 'ID4 Fast Adapter Middle East', 'ID6 Fast Adapter Middle East', 'ID4 Fast Adapter KSA', 'ID6 Fast Adapter KSA', 'ID4 Fast Adapter Saudi Arabia', 'ID6 Fast Adapter Saudi Arabia', 'ID4 Fast Adapter Oman', 'ID6 Fast Adapter Oman', 'ID4 Fast Adapter Qatar', 'ID6 Fast Adapter Qatar', 'ID4 Fast Adapter Kuwait', 'ID6 Fast Adapter Kuwait', 'ID4 Fast Adapter Bahrain', 'ID6 Fast Adapter Bahrain', 'ID4 Fast Adapter Jordan', 'ID6 Fast Adapter Jordan', 'ID4 Fast Adapter Egypt', 'ID6 Fast Adapter Egypt', 'ID4 Fast Adapter Africa', 'ID6 Fast Adapter Africa', 'ID4 Fast Adapter Europe', 'ID6 Fast Adapter Europe', 'ID4 Fast Adapter Asia', 'ID6 Fast Adapter Asia', 'ID4 Fast Adapter America', 'ID6 Fast Adapter America', 'ID4 Fast Adapter Australia', 'ID6 Fast Adapter Australia', 'ID4 Fast Adapter New Zealand', 'ID6 Fast Adapter New Zealand', 'ID4 Fast Adapter Canada', 'ID6 Fast Adapter Canada', 'ID4 Fast Adapter USA', 'ID6 Fast Adapter USA', 'ID4 Fast Adapter UK', 'ID6 Fast Adapter UK', 'ID4 Fast Adapter London', 'ID6 Fast Adapter London', 'ID4 Fast Adapter Paris', 'ID6 Fast Adapter Paris', 'ID4 Fast Adapter Berlin', 'ID6 Fast Adapter Berlin', 'ID4 Fast Adapter Munich', 'ID6 Fast Adapter Munich', 'ID4 Fast Adapter Frankfurt', 'ID6 Fast Adapter Frankfurt', 'ID4 Fast Adapter Hamburg', 'ID6 Fast Adapter Hamburg', 'ID4 Fast Adapter Amsterdam', 'ID6 Fast Adapter Amsterdam', 'ID4 Fast Adapter Brussels', 'ID6 Fast Adapter Brussels', 'ID4 Fast Adapter Rome', 'ID6 Fast Adapter Rome', 'ID4 Fast Adapter Milan', 'ID6 Fast Adapter Milan', 'ID4 Fast Adapter Madrid', 'ID6 Fast Adapter Madrid', 'ID4 Fast Adapter Barcelona', 'ID6']
+          tags: ['CCS2 to GBT Adapter', 'CCS2 to GBT DC Adapter', 'CCS2 Adapter', 'ID4 Fast Adapter', 'ID6 Fast Adapter', 'ID4 Fast Adapter Dubai', 'ID6 Fast Adapter Dubai', 'ID4 Fast Adapter Sharjah', 'ID6 Fast Adapter Sharjah', 'ID4 Fast Adapter Abu Dhabi', 'ID6 Fast Adapter Abu Dhabi', 'ID4 Fast Adapter UAE', 'ID6 Fast Adapter UAE', 'ID4 Fast Adapter GCC', 'ID6 Fast Adapter GCC', 'ID4 Fast Adapter Middle East', 'ID6 Fast Adapter Middle East', 'ID4 Fast Adapter KSA', 'ID6 Fast Adapter KSA', 'ID4 Fast Adapter Saudi Arabia', 'ID6 Fast Adapter Saudi Arabia', 'ID4 Fast Adapter Oman', 'ID6 Fast Adapter Oman', 'ID4 Fast Adapter Qatar', 'ID6 Fast Adapter Qatar', 'ID4 Fast Adapter Kuwait', 'ID6 Fast Adapter Kuwait', 'ID4 Fast Adapter Bahrain', 'ID6 Fast Adapter Bahrain', 'ID4 Fast Adapter Jordan', 'ID6 Fast Adapter Jordan', 'ID4 Fast Adapter Egypt', 'ID6 Fast Adapter Egypt', 'ID4 Fast Adapter Africa', 'ID6 Fast Adapter Africa', 'ID4 Fast Adapter Europe', 'ID6 Fast Adapter Europe', 'ID4 Fast Adapter Asia', 'ID6 Fast Adapter Asia', 'ID4 Fast Adapter America', 'ID6 Fast Adapter America', 'ID4 Fast Adapter Australia', 'ID6 Fast Adapter Australia', 'ID4 Fast Adapter New Zealand', 'ID6 Fast Adapter New Zealand', 'ID4 Fast Adapter Canada', 'ID6 Fast Adapter Canada', 'ID4 Fast Adapter USA', 'ID6 Fast Adapter USA', 'ID4 Fast Adapter UK', 'ID6 Fast Adapter UK', 'ID4 Fast Adapter London', 'ID6 Fast Adapter London', 'ID4 Fast Adapter Paris', 'ID6 Fast Adapter Paris', 'ID4 Fast Adapter Berlin', 'ID6 Fast Adapter Berlin', 'ID4 Fast Adapter Munich', 'ID6 Fast Adapter Munich', 'ID4 Fast Adapter Frankfurt', 'ID6 Fast Adapter Frankfurt', 'ID4 Fast Adapter Hamburg', 'ID6 Fast Adapter Hamburg', 'ID4 Fast Adapter Amsterdam', 'ID6 Fast Adapter Amsterdam', 'ID4 Fast Adapter Brussels', 'ID6 Fast Adapter Brussels', 'ID4 Fast Adapter Rome', 'ID6 Fast Adapter Rome', 'ID4 Fast Adapter Milan', 'ID6 Fast Adapter Milan', 'ID4 Fast Adapter Madrid', 'ID6 Fast Adapter Madrid', 'ID4 Fast Adapter Barcelona', 'ID6', 'ID4']
       },
 
       {
@@ -361,7 +383,7 @@ export const products = [
           operatingTemperature: '-30°C to +50°C',
           illustration: require('../images/product-images/GBT2GBT.webp'),
           illustration2: 'https://www.akyga.com/upl/app/products/images2/big-webp/dd106aec8f6ad2582c4bf459534ee3c0.webp.jpg',
-          tags: ['ID4 adapter', 'ID6 adapter', 'Type 2 to GBT Adapter', 'Type 2 to GBT AC Adapter', 'Type 2 to GBT AC Adapter Dubai', 'Type 2 to GBT AC Adapter Sharjah', 'Type 2 to GBT AC Adapter Abu Dhabi', 'Type 2 to GBT AC Adapter UAE', 'Type 2 to GBT AC Adapter GCC', 'Type 2 to GBT AC Adapter Saudi Arabia', 'Type 2 to GBT AC Adapter KSA', 'Type 2 to GBT AC Adapter Saudi Arabia', 'Type 2 to GBT AC Adapter Oman', 'Type 2 to GBT AC Adapter Qatar', 'Type 2 to GBT AC Adapter Kuwait', 'Type 2 to GBT AC Adapter Bahrain', 'Type 2 to GBT AC Adapter Jordan', 'Type 2 to GBT AC Adapter Egypt', 'Type 2 to GBT AC Adapter Africa', 'Type 2 to GBT AC Adapter Europe', 'Type 2 to GBT AC Adapter Asia', 'Type 2 to GBT AC Adapter America', 'Type 2 to GBT AC Adapter Australia', 'Type 2 to GBT AC Adapter New Zealand', 'Type 2 to GBT AC Adapter Canada', 'Type 2 to GBT AC Adapter USA', 'Type 2 to GBT AC Adapter UK', 'Type 2 to GBT AC Adapter London', 'Type 2 to GBT AC Adapter Paris', 'Type 2 to GBT AC Adapter Berlin', 'Type 2 to GBT AC Adapter Munich', 'Type 2 to GBT AC Adapter Frankfurt', 'Type 2 to GBT AC Adapter Hamburg', 'Type 2 to GBT AC Adapter Qatar', 'Type 2 to GBT AC Adapter Brussels', 'Type 2 to GBT AC Adapter Rome', 'Type 2 to GBT AC Adapter Milan']
+          tags: ['ID4 adapter', 'ID6 adapter', 'Type 2 to GBT Adapter', 'Type 2 to GBT AC Adapter', 'Type 2 to GBT AC Adapter Dubai', 'Type 2 to GBT AC Adapter Sharjah', 'Type 2 to GBT AC Adapter Abu Dhabi', 'Type 2 to GBT AC Adapter UAE', 'Type 2 to GBT AC Adapter GCC', 'Type 2 to GBT AC Adapter Saudi Arabia', 'Type 2 to GBT AC Adapter KSA', 'Type 2 to GBT AC Adapter Saudi Arabia', 'Type 2 to GBT AC Adapter Oman', 'Type 2 to GBT AC Adapter Qatar', 'Type 2 to GBT AC Adapter Kuwait', 'Type 2 to GBT AC Adapter Bahrain', 'Type 2 to GBT AC Adapter Jordan', 'Type 2 to GBT AC Adapter Egypt', 'Type 2 to GBT AC Adapter Africa', 'Type 2 to GBT AC Adapter Europe', 'Type 2 to GBT AC Adapter Asia', 'Type 2 to GBT AC Adapter America', 'Type 2 to GBT AC Adapter Australia', 'Type 2 to GBT AC Adapter New Zealand', 'Type 2 to GBT AC Adapter Canada', 'Type 2 to GBT AC Adapter USA', 'Type 2 to GBT AC Adapter UK', 'Type 2 to GBT AC Adapter London', 'Type 2 to GBT AC Adapter Paris', 'Type 2 to GBT AC Adapter Berlin', 'Type 2 to GBT AC Adapter Munich', 'Type 2 to GBT AC Adapter Frankfurt', 'Type 2 to GBT AC Adapter Hamburg', 'Type 2 to GBT AC Adapter Qatar', 'Type 2 to GBT AC Adapter Brussels', 'Type 2 to GBT AC Adapter Rome', 'Type 2 to GBT AC Adapter Milan', 'ID4']
         },
 
       {
@@ -405,7 +427,7 @@ export const products = [
           currency: 'AED',
           price: 10250,
           flag: 'new',
-          imageUrl: require('../images/product-images/tesla-ev-scanner.jpg'), 
+          imageSource: require('../images/product-images/tesla-ev-scanner.jpg'), 
           rating: 5,
           ratingCount: 1,
           description: 'D9 EV Professional EV Smart Diagnostic System, a high-performance 9.7-inch tablet that supports Bluetooth communication, DoIP, and CAN-FD protocols. With online software updates and compatibility with most Tesla EV models, it offers comprehensive diagnostic functions including battery pack detection, Tesla diagnosis, ECU information reading, DTC clearing, live data analysis, and over 40 special functions. Plus, it provides IMMO support for added security. Stay ahead with the D9 EV and unlock the full potential of electric vehicle diagnostics. ',
@@ -433,7 +455,7 @@ export const products = [
           currency: 'AED',
           price: 800,
           flag: 'new',
-          imageUrl: require('../images/product-images/ThinkDiag.webp'),
+          imageSource: require('../images/product-images/ThinkDiag.webp'),
           rating: 5,
           ratingCount: 1,
           description: 'D9 EV Professional EV Smart Diagnostic System, a high-performance 9.7-inch tablet that supports Bluetooth communication, DoIP, and CAN-FD protocols. With online software updates and compatibility with most Tesla EV models, it offers comprehensive diagnostic functions including battery pack detection, Tesla diagnosis, ECU information reading, DTC clearing, live data analysis, and over 40 special functions. Plus, it provides IMMO support for added security. Stay ahead with the D9 EV and unlock the full potential of electric vehicle diagnostics. ',
@@ -442,7 +464,7 @@ export const products = [
           portType: 'none',
           function: 'scanner',
           illustration: 'https://www.teslascanner.com/images/model-y.jpg',
-          illustration2: 'https://d.yixunpan.top/electway.com/wp-content/uploads/2021/03/img-5875.jpg',
+          illustration2: 'https://service.tesla.com/assets/images/png/bodyshops/desktop/bodyshop-hero-desktop-g.jpg',
           op: 'Android',
           coverageList: [
             {
@@ -735,7 +757,7 @@ export const products = [
       {
           id: '16',
           name: 'Portable EV Charger Compatible with All Electric Cars',
-          imageUrl: require('../images/product-images/Portable-EV-Charger.webp'),
+          imageSource: require('../images/product-images/Portable-EV-Charger.webp'),
           price: 950,
           rating: 5,
           ratingCount: 5,
@@ -758,16 +780,17 @@ export const products = [
           current: '32 A',
           cableLength: '3.5 m',
           availablePorts: 'Type 1, Type 2, GBT',
-          tags: ['Portable EV charger', 'Portable EV charger 32A', 'Portable EV charger 7.7KW', 'Portable EV charger 7.7KW 32A', 'Portable EV charger 7.7KW 32A Type 1', 'Portable EV charger 7.7KW 32A Type 2', 'Portable EV charger 7.7KW 32A GBT', 'Portable EV charger 7.7KW 32A Type 1 Type 2 GBT', 'Portable EV charger 7.7KW 32A Type 1 Type 2', 'Portable EV charger 7.7KW 32A Type 1 GBT', 'Portable EV charger 7.7KW 32A Type 2 GBT', 'Portable EV charger 7.7KW 32A Type 1 Type 2 GBT', 'Portable EV charger dubai']
+          tags: ['Portable EV charger', 'Portable EV charger 32A', 'Portable EV charger 7.7KW', 'Portable EV charger 7.7KW 32A', 'Portable EV charger 7.7KW 32A Type 1', 'Portable EV charger 7.7KW 32A Type 2', 'Portable EV charger 7.7KW 32A GBT', 'Portable EV charger 7.7KW 32A Type 1 Type 2 GBT', 'Portable EV charger 7.7KW 32A Type 1 Type 2', 'Portable EV charger 7.7KW 32A Type 1 GBT', 'Portable EV charger 7.7KW 32A Type 2 GBT', 'Portable EV charger 7.7KW 32A Type 1 Type 2 GBT', 'Portable EV charger dubai', 'Portable EV Charger', 'Portable Charger']
       },
       {
           id: '17',
           name: 'Tesla WallBox EV Charger',
-          imageUrl: require('../images/product-images/teslatype2teison.jpg'),
+          imageSource: require('../images/product-images/teslatype2teison.jpg'),
           price: 1750,
           salePrice: 1600,
           rating: 5,
           ratingCount: 3,
+          function: 'charger',
           description: 'Tesla WallBox EV Charger, 22KW 32A, Type 2, 3 Phase, 4.5m Cable, with IP65 protection level.            ',
           longDescription: `Introducing the Tesla Smart Mini Wallbox by Teison, the perfect solution for efficient and intelligent electric vehicle charging at home. Designed with a sleek and stylish appearance, this compact EV charger offers unparalleled performance, safety, and convenience.
 
@@ -783,12 +806,15 @@ export const products = [
           
           In conclusion, the Tesla Smart Mini Wallbox by Teison is an intelligent and reliable EV charger that offers efficient charging, stylish design, and seamless smartphone control. Whether you own a Tesla or any other electric vehicle, this Wallbox provides a safe and convenient charging solution for your home. Say goodbye to range anxiety and experience the future of electric vehicle charging with Teison's cutting-edge technology.`,
 
-        tags: ['Tesla wallbox EV charger', 'Tesla charger', 'Tesla EV charger', 'Tesla Home Charger', 'Buy Tesla charger', 'Fast Tesla charger']
-        },
+        tags: ['Tesla wallbox EV charger', 'Tesla charger', 'Tesla EV charger', 'Tesla Home Charger', 'Buy Tesla charger', 'Fast Tesla charger'],
+        illustration: require('../images/product-images/Tesla-Charger-T2.webp'),
+        power: '7/11 kW',
+        weight: '5 kg'
+      },
       {
         id: '21',
         name: 'Mercedes Benz EV Charger - EQS, EQC, EQA, EQB',
-        imageUrl: require('../images/product-images/New-Mega-Charger.png'),
+        imageSource: require('../images/product-images/New-Mega-Charger.png'),
         price: 1600,
         rating: 5,
         ratingCount: 1,
@@ -814,6 +840,7 @@ export const products = [
         The Mercedes Benz EV Charger is a testament to Mercedes Benz's commitment to sustainability, convenience, and innovation. It offers a seamless and secure charging experience, allowing owners of Mercedes Benz electric vehicles to enjoy their EVs to the fullest while contributing to a greener future. Embrace the future of mobility with this state-of-the-art EV charging solution from Mercedes Benz.`,
 illustration: require('../images/product-images/mercedes-wallbox.jpg'),
 weight: '4.0 kg (Net weight including equipment)',
+function: 'charger',
 power: '7.7 / 11 kW',
 portType: 'Type 2',
 tags: ['Mercedes Benz EV Charger', 'EQS EV Charger', 'EQS Charger', 'EQC EV Charger', 'EQC Charger', 'EQA EV Charger', 'EQA Charger', 'EQB EV Charger', 'EQB Charger', 'Mercedes EV Charger', 'Mega EV Charger', 'Home EV Charger Dubai'],
@@ -823,7 +850,7 @@ tags: ['Mercedes Benz EV Charger', 'EQS EV Charger', 'EQS Charger', 'EQC EV Char
       {
         id: '22',
         name: 'CCS2 to CCS1 Adapter - EU Standard to US Standard EV Connector',
-        imageUrl: require('../images/product-images/CCS2toCCS1.png'),
+        imageSource: require('../images/product-images/CCS2toCCS1.png'),
         price: 1350,
         rating: 5,
         ratingCount: 1,
