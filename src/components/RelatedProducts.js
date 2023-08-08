@@ -5,7 +5,6 @@ import { Box, Heading, Flex, Text, Image } from '@chakra-ui/react';
 
 import {
   Center,
-  useColorModeValue,
   Stack,
 } from '@chakra-ui/react'
 

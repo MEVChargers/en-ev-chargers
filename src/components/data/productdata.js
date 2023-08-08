@@ -38,7 +38,7 @@ export const products = [
     price: 1700,
     salesPrice: 1500,
     flag: 'new',
-    imageUrl: 'https://iili.io/Hr78TZb.md.webp',
+    imageSource: 'https://iili.io/Hr78TZb.md.webp',
     rating: 4,
     ratingCount: 19,
     description:
@@ -107,7 +107,7 @@ export const products = [
     name: 'Type 2 to Type 1 EV Charger Extension Cable',
     currency: 'AED',
     price: 550,
-    imageUrl: 'https://iili.io/Hr7856Q.md.png',
+    imageSource: 'https://iili.io/Hr7856Q.md.png',
     rating: 4,
     ratingCount: 20,
     description:
@@ -129,7 +129,7 @@ export const products = [
     name: 'Type 2 to Type 1 EV Adapter',
     currency: 'AED',
     price: 350,
-    imageUrl: 'https://iili.io/Hr78091.md.jpg',
+    imageSource: 'https://iili.io/Hr78091.md.jpg',
     rating: 5,
     ratingCount: 4,
     description:
@@ -161,7 +161,7 @@ export const products = [
     name: 'Tesla to Type 1 EV Adapter',
     price: 400,
     currency: 'AED',
-    imageUrl: 'https://iili.io/HrEn199.md.jpg',
+    imageSource: 'https://iili.io/HrEn199.md.jpg',
     rating: 5,
     ratingCount: 4,
     description:
@@ -193,7 +193,7 @@ export const products = [
       currency: 'AED',
       price: 1800,
       flag: 'new',
-      imageUrl: 'https://iili.io/Hr78TZb.md.webp',
+      imageSource: 'https://iili.io/Hr78TZb.md.webp',
       rating: 4,
       ratingCount: 19,
       description:
@@ -342,7 +342,6 @@ export const products = [
           currency: 'AED',
           price: 7000,
           flag: 'new',
-          imageUrl: require('../images/product-images/DCAdapter.webp'),
           imageSource: require('../images/product-images/DCAdapter.webp'),
           imageAlt: 'DC Adapter',
           rating: 5,
@@ -850,7 +849,7 @@ tags: ['Mercedes Benz EV Charger', 'EQS EV Charger', 'EQS Charger', 'EQC EV Char
       {
         id: '22',
         name: 'CCS2 to CCS1 Adapter - EU Standard to US Standard EV Connector',
-        imageSource: require('../images/product-images/CCS2toCCS1.png'),
+        imageSource: require('../images/product-images/CCS2toCCS1.webp'),
         price: 1350,
         rating: 5,
         ratingCount: 1,
@@ -872,8 +871,99 @@ tags: ['Mercedes Benz EV Charger', 'EQS EV Charger', 'EQS Charger', 'EQC EV Char
         specialFeature: 'Safety Lock',
         function: 'adapter',
         tags: ['CCS2 to CCS1', 'DC Adapter', 'CCS2 to CCS1 Adapter', 'Ford Adapter', 'GMC Adapter', 'US Mercedes Adapter']
-      }
-  
+      },
+      {
+        id: '23',
+        name: 'Portable EV Charging Station - 30 KWH Portable Charger Station',
+        imageSource: require('../images/product-images/Portable-EV-Station.png'),
+        price: 70000,
+        rating: 5,
+        ratingCount: 1,
+        description: 'The Portable EV Charging Station is a powerful 30 kW portable charger station that can deliver up to 100 miles of range in just one hour of charging. It is the perfect solution for on-road EV charging.',
+        longDescription: `The Portable EV Charging Station is the perfect solution for anyone who wants to be able to charge their electric vehicle (EV) anywhere, anytime. This powerful 30 kW portable charger station can deliver up to 100 miles of range in just one hour of charging, making it the fastest way to get back on the road.
+        
+        The Portable EV Charging Station is also incredibly versatile. It can be used as a standalone charging station or installed in a vehicle to create a mobile charging service. With its multiple ports and CCS2 gun, the Portable EV Charging Station can accommodate a wide range of EVs.
+        
+        Features:
+        
+            30 kW of power
+            Up to 100 miles of range in one hour of charging
+            Multiple ports for different EVs
+            CCS2 gun for fast DC charging
+            Portable and easy to use
+            Ideal for on-the-go charging
+        
+        Benefits:
+        
+            Never run out of battery again
+            Stay ahead of the curve with the latest EV technology
+            Reduce your carbon footprint
+            Make money by offering mobile EV charging services
+        
+        Applications:
+        
+            Personal use
+            Fleet management
+            Public charging
+            Mobile charging services
+        
+        Order your Portable EV Charging Station today and experience the freedom of on-the-go EV charging!`,
+        tags: ['EV station', 'portable ev station', 'EV power station', 'Mobile EV charger', 'Electric Car Charging Station'],
+        illustration: require('../images/product-images/Portable-EV-Station-Power-Bank.png'),
+        illustration2: require('../images/product-images/EV-Station.jpg'),
+        power: '30 kW',
+        portType: 'CCS2',
+        function: 'charger',
+        dimensions: 'L 150 x W 84 x H 83 cm',
+
+
+      },
+      {
+        id: '24',
+        name: 'Portable EV Charging Station - 60 KWH Portable Charger Station',
+        imageSource: require('../images/product-images/Portable-EV-Station.png'),
+        price: 117000,
+        rating: 5,
+        ratingCount: 1,
+        description: 'The Portable EV Charging Station is a powerful 60 kW portable charger station that can deliver up to 100 miles of range in just one hour of charging. It is the perfect solution for on-road EV charging.',
+        longDescription: `The Portable EV Charging Station is the perfect solution for anyone who wants to be able to charge their electric vehicle (EV) anywhere, anytime. This powerful 30 kW portable charger station can deliver up to 100 miles of range in just one hour of charging, making it the fastest way to get back on the road.
+        
+        The Portable EV Charging Station is also incredibly versatile. It can be used as a standalone charging station or installed in a vehicle to create a mobile charging service. With its multiple ports and CCS2 gun, the Portable EV Charging Station can accommodate a wide range of EVs.
+        
+        Features:
+        
+            60 kW of power
+            Up to 100 miles of range in one hour of charging
+            Multiple ports for different EVs
+            CCS2 gun for fast DC charging
+            Portable and easy to use
+            Ideal for on-the-go charging
+        
+        Benefits:
+        
+            Never run out of battery again
+            Stay ahead of the curve with the latest EV technology
+            Reduce your carbon footprint
+            Make money by offering mobile EV charging services
+        
+        Applications:
+        
+            Personal use
+            Fleet management
+            Public charging
+            Mobile charging services
+        
+        Order your Portable EV Charging Station today and experience the freedom of on-the-go EV charging!`,
+        tags: ['EV station', 'portable ev station', 'EV power station', 'Mobile EV charger', 'Electric Car Charging Station'],
+        illustration: require('../images/product-images/Portable-EV-Station-Power-Bank.png'),
+        illustration2: require('../images/product-images/EV-Station.jpg'),
+        power: '60 kW',
+        portType: 'CCS2',
+        function: 'charger',
+        dimensions: 'L 150 x W 84 x H 83 cm',
+
+
+      },
     
 ];
 
