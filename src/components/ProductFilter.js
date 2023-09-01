@@ -19,7 +19,8 @@ const ProductFilter = ({ products, onFilterChange }) => {
         (product) =>
           product.portType === value ||
           product.portType2 === value ||
-          product.portType3 === value
+          product.portType3 === value &&
+          product.function === 'charger'
       );
       setFilteredProducts(filtered);
     }
@@ -42,7 +43,6 @@ const ProductFilter = ({ products, onFilterChange }) => {
           <ListItem key={product.id}>
             <Box display="flex" flexDirection={['column', 'row']} alignItems={['start', 'center']} ml={4}>
               <Link as={RouterLink} to={`/products/${product.id}`}>
-                {console.log(product.imageSource)}
                 <Image src={product.imageUrl? product.imageUrl : product.imageSource} alt={product.name} boxSize="300px" objectFit="cover" />
               </Link>
               <Box ml={[0, 4]} mt={[4, 0]}>

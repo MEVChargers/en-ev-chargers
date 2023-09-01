@@ -845,6 +845,8 @@ portType: 'Type 2',
 tags: ['Mercedes Benz EV Charger', 'EQS EV Charger', 'EQS Charger', 'EQC EV Charger', 'EQC Charger', 'EQA EV Charger', 'EQA Charger', 'EQB EV Charger', 'EQB Charger', 'Mercedes EV Charger', 'Mega EV Charger', 'Home EV Charger Dubai'],
         
       },
+    
+      
 
       {
         id: '22',
@@ -872,8 +874,48 @@ tags: ['Mercedes Benz EV Charger', 'EQS EV Charger', 'EQS Charger', 'EQC EV Char
         function: 'adapter',
         tags: ['CCS2 to CCS1', 'DC Adapter', 'CCS2 to CCS1 Adapter', 'Ford Adapter', 'GMC Adapter', 'US Mercedes Adapter']
       },
+
       {
-        id: '23',
+        id: '24',
+        name: 'شاحن سيارة كهربائية ID4 و ID6 سريع بتيار DC',
+        currency: 'AED',
+        price: 6000,
+        tags: ['شاحن سيارة كهربائية جديد', 'شاحن سيارة كهربائية سريع', 'جرج سيارة كهربائية', 'شاحن ID4', 'شاحن ID6', 'شاحن فولكس فاجن', 'شاحن فولكس فاجن كهربائية', 'شاحن سيارة فولكس فاجن'],
+        flag: 'new',
+        imageSource: require('../images/product-images/DC-Charger.webp'),
+        rating: 5,
+        ratingCount: 1,
+        function: 'charger',
+        description: "محطة شحن GBT الصينية للسيارات الكهربائية توفر شحنًا فائق السرعة من 20% إلى 80% في ساعة واحدة، وتعمل بكهرباء 3 فاز من اللوحة الرئيسية، مع تصميم مقاوم للماء ودرجات حرارة قاسية. تقدم قوة تصل إلى 22 كيلوواط ويمكن تركيبها بسهولة على الحائط، مع شاشة لعرض معلومات الشحن.          ",
+        longDescription: `
+        تقدم هذه المحطة الشحنية الفعالة والقوية تجربة شحن متميزة لمجموعة متنوعة من السيارات الكهربائية، بما في ذلك سيارات هوندا وتويوتا وBYD التي تأتي مع منفذ الشحن الصيني GBT. يتميز هذا الشاحن بالعديد من المزايا الرائعة:
+        
+        شحن سريع جدًا: يقوم الشاحن بشحن البطارية من 20% إلى 80% في غضون ساعة واحدة فقط، مما يوفر وقتًا قيمًا للمستخدمين.
+        
+        كهرباء 3 فاز: يتطلب الشاحن توصيله بمصدر كهرباء 3 فاز، والذي عادةً متوفر في الفيلات والمراكز التجارية من اللوحة الرئيسية للكهرباء.
+        
+        مقاوم للعوامل البيئية: يتمتع الشاحن بتصنيف درجة الحماية IP56، مما يجعله مقاومًا لرشات الماء في جميع الاتجاهات ويضمن أداءً موثوقًا في ظروف الطقس المتغيرة.
+        
+        مقاوم للظروف البيئية القاسية: يمكن لهذا الشاحن تحمل درجات حرارة تتراوح بين 30 تحت الصفر و60 درجة مئوية كحد أقصى، مما يجعله مناسبًا للاستخدام في مناطق ذات ظروف مناخية متنوعة.
+        
+        قوة كبيرة: يقدم الشاحن قوة تصل إلى 22 كيلوواط لكل ساعة بتيار يبلغ 65 أمبير، مما يضمن شحنًا سريعًا وفعالًا.
+        
+        تصميم مريح: يمكن تثبيت الشاحن بسهولة على الحائط ويأتي مع شاشة لعرض معلومات عن عملية الشحن لتوفير راحة إضافية للمستخدمين.`,
+        illustration: require ('../images/product-images/DC_Charger_Port.png'),
+        availablePorts: 'GBT',
+        power: '22 كيلوواط / ساعة',
+        inputVoltage: '380-500 فولت (AC)',
+        inputFrequency: '45-55 هرتز',
+        current: '65 أمبير',
+        productWeight: '33 كيلوغرام',
+        cableLength: '5 متر',
+        protectionLevel: 'IP54',
+        dimensions: '393 * 630 * 145 مم',
+        operatingTemperature: '-30° ~ 60°',
+      },
+
+      {
+        id: '31',
         name: 'Portable EV Charging Station - 30 KWH Portable Charger Station',
         imageSource: require('../images/product-images/Portable-EV-Station.png'),
         price: 70000,
@@ -919,7 +961,7 @@ tags: ['Mercedes Benz EV Charger', 'EQS EV Charger', 'EQS Charger', 'EQC EV Char
 
       },
       {
-        id: '24',
+        id: '32',
         name: 'Portable EV Charging Station - 60 KWH Portable Charger Station',
         imageSource: require('../images/product-images/Portable-EV-Station.png'),
         price: 117000,
@@ -932,26 +974,26 @@ tags: ['Mercedes Benz EV Charger', 'EQS EV Charger', 'EQS Charger', 'EQC EV Char
         
         Features:
         
-            60 kW of power
-            Up to 100 miles of range in one hour of charging
-            Multiple ports for different EVs
-            CCS2 gun for fast DC charging
-            Portable and easy to use
-            Ideal for on-the-go charging
+           - 60 kW of power
+           - Up to 100 miles of range in one hour of charging
+           - Multiple ports for different EVs
+           - CCS2 gun for fast DC charging
+           - Portable and easy to use
+           - Ideal for on-the-go charging
         
         Benefits:
         
-            Never run out of battery again
-            Stay ahead of the curve with the latest EV technology
-            Reduce your carbon footprint
-            Make money by offering mobile EV charging services
+          -  Never run out of battery again
+          - Stay ahead of the curve with the latest EV technology
+          -  Reduce your carbon footprint
+          -  Make money by offering mobile EV charging services
         
         Applications:
         
-            Personal use
-            Fleet management
-            Public charging
-            Mobile charging services
+           - Personal use
+           - Fleet management
+           - Public charging
+           - Mobile charging services
         
         Order your Portable EV Charging Station today and experience the freedom of on-the-go EV charging!`,
         tags: ['EV station', 'portable ev station', 'EV power station', 'Mobile EV charger', 'Electric Car Charging Station'],
