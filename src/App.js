@@ -27,6 +27,7 @@ import Support from './components/Support';
 import PopularBlogs from './components/PopularBlogs';
 import NotFound from './components/404';
 import ReactGA from 'react-ga';
+import AC from './components/ACharger';
 
 function App() {
   
@@ -205,6 +206,7 @@ function App() {
           <Route path="/support" element={<Support />} />
           <Route path="/blog/:id" element={<PostPage />} />
           <Route path="/products/adapters/dc" element={<Adapters />} />
+          <Route path="/products/chargers/ac-chargers" element={<AC />} />
           <Route path="/services/ev-charger-installation" element={<Installation />} />
           <Route path="/services/roadside-charging-service" element={<Emergency />} />
           <Route path='/services' element={<Services />} />

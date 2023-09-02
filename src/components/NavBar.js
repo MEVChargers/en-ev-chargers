@@ -295,6 +295,18 @@ const NAV_ITEMS = [
         label: 'Chargers',
         subLabel: 'Find the best EV charger for your vehicle',
         href: '/products/chargers',
+        subChildren: [
+          {
+            label: 'AC Chargers',
+            subLabel: 'Find the best AC charger for your vehicle',
+            href: '/products/chargers/ac-chargers',
+          },
+          {
+            label: 'DC Chargers',
+            subLabel: 'Find the best DC charger for your vehicle',
+            href: '/products/11',
+          },
+        ],
       },
       {
         label: 'Adapters',
